@@ -1,3 +1,4 @@
-<p>
-  re-captcha-google-crear works!
-</p>
+<div id="{{recaptchaId}}" appReCaptchaRender (onCaptchaSubmit)="onCaptchaSubmited($event)"
+     [render]="render"
+     [key]="key"
+     [recaptchaId]="recaptchaId"></div>
