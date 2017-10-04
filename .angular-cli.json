@@ -1,0 +1,27 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "google-recaptcha-angular"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [],
+      "main": "index.ts",
+      "tsconfig": "tsconfig.json",
+      "prefix": "app",
+      "scripts": []
+    }
+  ],
+  "e2e": {
+    "protractor": {
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.json",
+      "exclude": "**/node_modules/**"
+    }
+  ]
+}
